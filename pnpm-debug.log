@@ -1,0 +1,52 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      //1: "describes your app and its dependencies"
+      //2: "https://docs.npmjs.com/files/package.json"
+      //3: "updating this file will download and update your packages"
+      name: "hello-express"
+      version: "0.0.1"
+      description: "A simple Node app built on Express, instantly up and running."
+      main: "server.js"
+      scripts: 
+        start: "node app.js"
+      dependencies: 
+        @discordjs/opus: "^0.3.3"
+        discord.js: "^12.4.1"
+        express: "^4.17.1"
+        ytdl-core-discord: "^1.2.4"
+      engines: 
+        node: "12.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      readme: "# hello-express\n\nA server that serves a webpage, its resources, and some data\n\n\n## Your Project\n\nOn the front-end,\n\n- Edit `views/index.html` to change the content of the webpage\n- `public/client.js` is the javacript that runs when you load the webpage\n- `public/style.css` is the styles for `views/index.html`\n- Drag in `assets`, like images or music, to add them to your project\n\nOn the back-end,\n\n- your app starts at `server.js`\n- add frameworks and packages in `package.json`\n- safely store app secrets in `.env` (nobody can see this but you and people you invite)\n\nClick `Show` in the header to see your app live. Updates to your code will instantly deploy.\n\n\n## Made by [Glitch](https://glitch.com/)\n\n**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.\n\nFind out more [about Glitch](https://glitch.com/about).\n\n( ᵔ ᴥ ᵔ )"
+      readmeFilename: "README.md"
+      gitHead: "84a71c848a218ca8edd2fedc27e006b70c3bd547"
+      _id: "hello-express@0.0.1"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving discord.js that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/6d7e4075-5e57-42b7-829f-189e0b729066/node_modules/discord.js"
+      dest: "/rbd/pnpm-volume/6d7e4075-5e57-42b7-829f-189e0b729066/node_modules/.ignored/discord.js"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/6d7e4075-5e57-42b7-829f-189e0b729066/node_modules/discord.js' -> '/rbd/pnpm-volume/6d7e4075-5e57-42b7-829f-189e0b729066/node_modules/.ignored/discord.js'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/6d7e4075-5e57-42b7-829f-189e0b729066/node_modules/discord.js' -> '/rbd/pnpm-volume/6d7e4075-5e57-42b7-829f-189e0b729066/node_modules/.ignored/discord.js'"
